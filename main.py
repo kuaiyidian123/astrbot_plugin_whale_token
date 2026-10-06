@@ -179,7 +179,7 @@ def parse_amount(text: str) -> Optional[int]:
 
 @register(
     PLUGIN_NAME,
-    "your_name",
+    "kuaiyidian123",
     "鲸元券票面查看插件：按面额返回对应票面图，支持列表/随机/全系列/正反面",
     "1.0.0",
 )

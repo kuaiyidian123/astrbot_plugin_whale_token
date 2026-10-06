@@ -1,8 +1,8 @@
 name: astrbot_plugin_whale_token
 display_name: 鲸元券
 version: v1.0.0
-author: your_name
-repo: https://github.com/your_name/astrbot_plugin_whale_token
+author: kuaiyidian123
+repo: https://github.com/kuaiyidian123/astrbot_plugin_whale_token
 desc: |
   鲸元券（WHALE-YUAN TOKEN）票面查看插件：把虚构货币「鲸元券」的六档票面图打包进来，
   按面额返回对应票面，供聊天中展示。
