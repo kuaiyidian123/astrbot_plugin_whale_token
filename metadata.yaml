@@ -1,0 +1,26 @@
+name: astrbot_plugin_whale_token
+display_name: 鲸元券
+version: v1.0.0
+author: your_name
+repo: https://github.com/your_name/astrbot_plugin_whale_token
+desc: |
+  鲸元券（WHALE-YUAN TOKEN）票面查看插件：把虚构货币「鲸元券」的六档票面图打包进来，
+  按面额返回对应票面，供聊天中展示。
+
+  ## 指令
+  - `/鲸元券`（不带参数）按后台配置的「默认面额 / 默认票面」发送，无需输入金额
+  - `/鲸元券 <面额>` 发送该面额票面正面，如 `/鲸元券 1亿`
+  - `/鲸元券 反面 <面额>` 发送反面，`/鲸元券 双面 <面额>` 正反一起发
+  - `/鲸元券 列表` 列出六档面额
+  - `/鲸元券 全系列` 发送全系列总表长图
+  - `/鲸元券 随机` 随机抽一档
+  - `/鲸元券 帮助` 查看用法
+
+  面额支持「1亿 / 一亿 / 壹億 / 100000000 / 100,000,000」等写法。
+
+  ## 说明
+  - 票面图片已预压缩打包（resources/，共约 3MB），不依赖网络与额外 Python 库
+  - 票面为虚构设定物，非真实货币；票面上的 DeepSeek 标识属第三方商标，
+    与 DeepSeek 官方无隶属、合作或背书关系
+  - 素材来源：github.com/Huaji124/DeepSeek-Token-Bank（代码 MIT / 图稿 CC BY-NC 4.0）
+astrbot_version: '>=4.0.0'

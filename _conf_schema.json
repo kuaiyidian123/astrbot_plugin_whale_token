@@ -1,0 +1,26 @@
+{
+  "default_amount": {
+    "type": "string",
+    "title": "默认面额",
+    "default": "random",
+    "description": "发送 /鲸元券（不带任何参数）时使用的面额。可填 1亿 / 5000万 / 100000000 等写法，填 random 表示每次随机抽一档。留空等同 random；填了无法识别的值会回退到 1 亿。"
+  },
+  "default_faces": {
+    "type": "string",
+    "title": "默认票面",
+    "default": "front",
+    "description": "不带参数时发送哪一面。可填 front（正面）/ back（反面）/ both（正反双面），也可填中文 正面 / 反面 / 双面。"
+  },
+  "send_info_text": {
+    "type": "bool",
+    "title": "图片后附带票面信息",
+    "default": true,
+    "description": "开启后，发送票面图之后会再发一条文字消息，包含主题、券幅尺寸、专色、反面主景等信息。关闭则只发图片。"
+  },
+  "enable_series_poster": {
+    "type": "bool",
+    "title": "允许发送全系列总表",
+    "default": true,
+    "description": "开启后 /鲸元券 全系列 会发送六档面额的总表长图（900×4105，约 570KB）。某些协议端对超长图支持不佳，可关闭。"
+  }
+}
